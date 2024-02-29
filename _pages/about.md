@@ -20,20 +20,23 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-He is a fifth-year *Ph.D.* student under the supervision of Prof. Haibing Guan at the Department of Computer Science, Shanghai Jiao Tong University.
+He is a fifth-year *Ph.D.* student advised by Prof. Haibing Guan at the Department of Computer Science, Shanghai Jiao Tong University.
 He finished the *Bachelor's* degree at the Department of Computer Science, Shanghai Jiao Tong University in 2019.
-Now he is a visiting scholar under the supervision of Prof. Xuehai Qian at the Department of Computer Science, Purdue University.
+Now he is a visiting scholar advised by Prof. Xuehai Qian at the Department of Computer Science, Purdue University.
 
 > He's on the job market for a post-doc position in 2024.
 
 ### Research Interests
 
-- **Machine Learning Systems** for Large Language Models (LLM). <br/>
-  We are exploring system-level opportunities to optimize LLM finetuning and serving efficiency, using techniques such as pruning, quantization, parallelism, offloading, and memory management.
 - **I/O Virtualization Systems** with software-hardware co-design. <br/>
   By collaborating with Intel, we built a highly scalable software-hardware co-designed I/O virtualization system that achieves at most 3x more virtual devices supporting the same performance as the traditional SR-IOV solution (HD-IOV, to be published in EuroSys'24). We also built a para-virtualization stack for crypto accelerators that achieves near-native I/O performance leveraging techniques such as DPDK (vCrypto, to be published in INFOCOM'24).
 - **In-network Offloading Systems** with programmable devices such as DPUs and P4 switches. <br/>
   We offloaded crypto operations to dedicated accelerators and built a cloud Key Management System (KMS) that achieves hardware-level key protection and up to 17x higher asymmetric crypto algorithm throughput compared with software solutions (QKPT, in IEEE TDSC'21). We also offloaded virtio back-ends to the hardware device and designed a live migration logic to facilitate migratable pass-through devices (Un-IOV, in IEEE TC'24). We are actively developing DPU offloaded far memory systems and P4 offloaded transaction processing systems.
+- **Machine Learning Systems** for Large Language Models (LLM). <br/>
+  We are exploring system-level opportunities to optimize LLM finetuning and serving efficiency, using techniques such as pruning, quantization, parallelism, offloading, and memory management.
+  
+### Professional Experience
+- Reviewer for the 2024 International Journal of Computer and Telecommunications Networking
 
 
 ### Industrial Experience
